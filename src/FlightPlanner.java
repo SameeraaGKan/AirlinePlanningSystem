@@ -18,6 +18,7 @@ public class FlightPlanner {
             }
         }
 
+
         // Load flight requests
         List<FlightRequest> requests = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader("src/requests.txt"))) {
